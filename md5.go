@@ -20,5 +20,5 @@ func main() {
 	fmt.Println(hex.EncodeToString(bytes))// []byte转为16进制
 	//07a1e89a32376deda92c5ed365f5d3d6
 
-	//不同长度的信息，MD5加密后均为16个字节的固定长度
+	//128bit --> 16字节  -->32个16进制
 }

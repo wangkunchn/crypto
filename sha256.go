@@ -33,7 +33,6 @@ func main() {
 	io.Copy(h,file)
 	bytes := h.Sum(nil)
 	fmt.Println(hex.EncodeToString(bytes))//85303176ac15c747a2b49a7fb4844e8e8740b4ea8c81d961a31b76f70af4de48
-	//2个16进制代表一个字节
-	//sha256 --> 256bit  --> 32字节
+	//sha256 --> 256bit  --> 32字节 --> 64个16进制
 
 }
